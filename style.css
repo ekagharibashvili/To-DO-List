@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(90deg, rgb(37, 35, 35), rgb(68, 68, 54), rgb(54, 27, 27));
+    
+
+}
+.div{
+    text-align: center;
+    
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: rgba(155, 39, 39, 0.8);
+    text-shadow: 0px 5px 5px rgba(78, 39, 12);
+}
+section{
+    width: 50%;
+    height: 100%;
+ background: linear-gradient(90deg, rgb(48, 45, 51), rgb(38, 35, 51), rgb(15, 15, 22));
+    
+}
+.container{
+    width: 100%;
+}
+#input{
+    width: 30%;
+    height: 35px;
+    border-style: solid;
+    margin-top: 0px;
+    background-color: rgb(205, 204, 250);
+
+}
+#button{
+    width:27px;
+    height: 27px;
+    padding: 0px;
+    border-radius: 50%;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+p{
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 5px;
+    color: rgba(179, 48, 48);
+}
+b{
+    font-size: 0.9rem;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+#button:hover{
+    background-color:  rgba(179, 48, 48);
+}
+p:hover{
+    font-size: 2rem;
+}
+@media (max-width: 500px){
+    section{
+        width: 95%;
+    }
+}
+@media (max-width: 500px){
+    input{
+        width: 100%;
+    }
+}
+@media (min-width: 505px){
+    section{
+        width: 80%;
+    }
+}
+@media (min: 505px){
+    input{
+        width: 100%;
+    }
+}
+
+
+
+
+
